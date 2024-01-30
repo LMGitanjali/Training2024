@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-14T06:45:04.012Z",
+    "end": "2024-01-14T06:45:19.883Z",
+    "duration": 15871,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ebfe5636-4bdf-48fd-843b-7a0823b53653",
+      "title": "",
+      "fullFile": "cypress\\e2e\\assignment2\\assi2.cy.js",
+      "file": "cypress\\e2e\\assignment2\\assi2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d8b5a6ac-7533-49ba-8adb-6ec593775d95",
+          "title": "ParaBank",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Using Fixture",
+              "fullTitle": "ParaBank Using Fixture",
+              "timedOut": null,
+              "duration": 11167,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('registerpara').then(para => {\n  const obj = new _registerpom.registerrepo();\n  obj.enterurl(para.url);\n  obj.click();\n  obj.enterfname(para.firstName);\n  obj.enterlname(para.lastName);\n  obj.enterstreet(para.street);\n  obj.entercity(para.city);\n  obj.enterstate(para.state);\n  obj.enterzipCode(para.zipCode);\n  obj.enterpnumber(para.phoneNumber);\n  obj.enterssn(para.ssn);\n  obj.enteruname(para.username);\n  obj.enterpwd(para.password);\n  obj.enterrpwd(para.repeatedPassword);\n  obj.click2();\n  obj.click3();\n});",
+              "err": {},
+              "uuid": "ec9f2239-25ae-48e3-b3e0-e30bce0a814e",
+              "parentUUID": "d8b5a6ac-7533-49ba-8adb-6ec593775d95",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ec9f2239-25ae-48e3-b3e0-e30bce0a814e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11167,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "url":"https://parabank.parasoft.com/parabank/index.htm",
+    "firstName": "Geeta",
+    "lastName": "Dalvi",
+    "street":"Shanivarwada",
+    "city":"Pune",
+    "state":"Maharashtra",
+    "zipCode":"400706",
+    "phoneNumber":"8828258136",
+    "ssn":"73783",
+    "username":"parth@24",
+    "password":"abcd",
+    "repeatedPassword":"abcd"
+}
